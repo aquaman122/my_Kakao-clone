@@ -1,0 +1,11 @@
+.first-header {
+    display: flex;
+    justify-content: center;
+    padding-top: 33px;
+}
+
+.first-header__icon {
+    background-color: #f9e000;
+    width: 350px;
+    height: 170px;
+}

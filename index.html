@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Page Kakao-clone</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <a href="#">
+                <i class="fas fa-cog"></i>
+            </a>
+        </div>
+        <div class="status-bar__column">
+            <a href="#">
+                <i class="far fa-window-minimize"></i>
+            </a>
+            <a href="#">
+                <i class="fas fa-times"></i>
+            </a>    
+        </div>
+    </div>
+
+    <header class="first-header">
+        <img class="first-header__icon" src="https://play-lh.googleusercontent.com/bat5G9MsTnwDjso5uI-yfgbLfxDSC3U4X7sNK4iEmCEWjUtjvfXBZyjjvHDx6ez-QcA" alt="">
+    </header>
+     
+    <form action="friends.html" method="get" id="login-form">
+        <input class="login-form__column username" name="username" type="text" placeholder="카카오계정 (이메일 또는 전화번호)">
+        <input class="login-form__column password" name="password" type="password" placeholder="비밀번호">
+        <input class="login-form__column login" type="submit" value="로그인">
+        <div class="first-header__checkbox">
+            <input type="checkbox" name="자동로그인" vlaue="자동로그인">
+            <label for="자동로그인">자동로그인</label>
+            <a href="#">
+                <i class="far fa-question-circle"></i>
+            </a>
+        </div>        
+    </form>
+
+    <footer class="footer">
+        <div class="footer__column">
+            <a class="footer__column-id" href="#">카카오계정 찾기</a>
+            <a class="footer__column-password" href="#">비밀번호 재설정</a>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/b3c45d5f2a.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
