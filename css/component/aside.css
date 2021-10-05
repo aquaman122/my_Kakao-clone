@@ -1,0 +1,29 @@
+.friends-aside {
+    display: inline-block;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 14%;
+    height: 85vh;
+}
+
+.friends-aside__column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 22px;
+    margin-top: 40px;
+}
+
+.friends-aside__column a {
+    text-decoration: none;
+    color: inherit;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.friends-aside__column:last-child {
+    margin-top: 200px;
+}
+
+.friends-aside__column i {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,60 @@
+.friends-header,
+.friends-main .friends-main__column {
+    padding-left: 15px;
+}
+
+.friends-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}
+
+.frineds-header__column span {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.frineds-header__column a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.frineds-header__column i {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.4);
+    padding: 20px 23px 0 0;
+}
+
+.friends-main__column {
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.friends-main__column img {
+    width: 60px;
+    height: 60px;
+    border-radius: 22px;
+}
+
+.friends-main__text {
+    margin-left: 12px;
+    font-size: 13px;
+}
+
+.friends-main__title {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    font-size: 12px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.friends-main__img img {
+    width: 45px;
+    height: 45px;
+    border-radius: 7px;
+}

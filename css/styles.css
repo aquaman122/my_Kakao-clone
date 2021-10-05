@@ -1,11 +1,22 @@
-@import "status-bar.css";
+@import "login-status-bar.css";
 
 /* component */
 @import "component/header.css";
+@import "component/status-bar.css";
+@import "component/aside.css";
+@import "component/footer.css";
 
 /* screen */
 @import "screen/login.css";
+@import "screen/friends.css";
 
-body {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {}
+
+.login-page {
     background-color: #f9e000;
 }

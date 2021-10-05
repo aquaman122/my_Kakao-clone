@@ -8,22 +8,141 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <aside class="friends-aside">
+        <div class="friends-aside__column">
+            <a href="#" class="ir_pm" title="친구">
+                <i class="fas fa-user"></i>
+            </a>
+            <a href="#" class="ir_pm" title="채팅">
+                <i class="fas fa-comment"></i>
+            </a>
+            <a href="#" class="ir_pm" title="더보기">
+                <i class="fas fa-ellipsis-h"></i>
+            </a>
+        </div>
+        <div class="friends-aside__column">
+            <a href="#" class="ir_pm" title="카카오톡 이모티콘샵">
+                <i class="far fa-smile"></i>
+            </a>
+            <a href="#" class="ir_pm" title="알림">
+                <i class="far fa-bell"></i>
+                </a>
+            <a href="#" class="ir_pm" title="설정">
+                <i class="fas fa-cog"></i>
+            </a>
+        </div>        
+    </aside>
+
     <div class="status-bar">
         <div class="status-bar__column">
-            <i class="fas fa-cog"></i>
-        </div>
-        <div class="status-bar__column">
-            <i class="far fa-window-minimize"></i>
-            <i class="fas fa-times"></i>
+            <a href="#" class="ir_pm" title="최소화">
+                <i class="far fa-window-minimize"></i>
+            </a>
+            <a href="#" class="ir_pm" title="최대화">
+                <i class="far fa-square"></i>
+            </a>
+            <a href="#" class="ir_pm" title="닫기">
+                <i class="fas fa-times"></i>
+            </a>
         </div>
     </div>
 
-    <header class="first-header">
-        <img class="first-header__icon" src="https://play-lh.googleusercontent.com/bat5G9MsTnwDjso5uI-yfgbLfxDSC3U4X7sNK4iEmCEWjUtjvfXBZyjjvHDx6ez-QcA" alt="">
+    <header class=friends-header>
+        <div class="frineds-header__column">
+            <span>친구</span>
+        </div>
+        <div class="frineds-header__column">
+            <a href="#" class="ir_pm" title="통합검색">
+                <i class="fas fa-search"></i>
+            </a>
+            <a href="#" class="ir_pm" title="친구 추가">
+                <i class="fas fa-user-plus"></i>
+            </a>
+        </div>
     </header>
 
+    <main class="friends-main">
+        <div class="friends-main__column">
+            <a href="#">
+                <img src="https://lh3.googleusercontent.com/proxy/kbdC6uWIGew-Oue6uJlP6Sd-SpoV7Sk_pFJwCLXh8TiX96n5lT8OZXnluxQ42DI_99WniW5eYYy_ie3gjvMSypCdkAlUQstXGdskVtnUSLefP11jguHgv3klf5l3FICIIu6JrsUYzBB8qNPYCBGqtNI">
+            </a>
+            <div class="friends-main__text">
+                <h4>장석원</h4>
+            </div>
+        </div>
+        <!-- //내 프로필 -->
+        <div class="friends-main__column">
+            <div class="friends-main__title">
+                <span>내 멀티프로필</span>
+                <i class="fas fa-chevron-up"></i>
+            </div>
+        </div>
+        <div class="friends-main__column">
+            <div class="friends-main__img">
+                <a href="#">
+                    <img src="https://e7.pngegg.com/pngimages/354/728/png-clipart-plus-and-minus-signs-computer-icons-emoji-logo-plus-thumbnail.png" alt="이미지사진">       
+                </a>
+            </div>
+            <div class="friends-main__text">
+                <h4>친구별로 다른 프로필을 설정해보세요!</h4>
+            </div>
+        </div>
+        <!-- 내 멀티 프로필 -->
+        <div class="friends-main__column">
+            <div class="friends-main__title">
+                <span>생일인 친구</span>
+                <i class="fas fa-chevron-up"></i>
+            </div>
+        </div>
+        <div class="friends-main__column">
+            <div class="friends-main__img">
+                <a href="#">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs97EdQKGNOsgNtYJVs5bjEeLBwqbBwmkxVQ&usqp=CAU" alt="">
+                </a>
+            </div>
+            <div class="friends-main__text">
+                <h4>친구의 생일을 확인해보세요!</h4>
+            </div>
+        </div>
+        <!-- 생일인 친구 -->
+        <div class="friends-main__column">
+            <div class="friends-main__title">
+                <span>채널</span>
+                <i class="fas fa-chevron-up"></i>
+            </div>
+        </div>
+        <div class="friends-main__column">
+            <div class="friends-main__img">
+                <a href="#">
+                    <img src="https://play-lh.googleusercontent.com/cf3DwPLbS8Z55sDvUSTQ6PL1goPdm8KbZ81g4TEUAaeUh5LDhkzdjxKQ2RX6BGpv0x4" alt="">
+                </a>
+            </div>
+            <div class="friends-main__text">
+                <h4>채널</h4>
+            </div>
+        </div>
+        <!-- //채널 -->
+        <div class="friends-main__column">
+            <div class="friends-main__title">
+                <span>친구</span>
+            </div>
+        </div>
+        <!-- <div class="friends-main__column">
+            <div class="friends-main__img">
+                <a href="#">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOIAAADfCAMAAADcKv+WAAAAMFBMVEWhtunL1vLM1/KftOm1xe3M1vKit+m/ze+kuOrH0/Gqveuyw+3D0PC6ye6uwOyftOY8UPyPAAADcklEQVR4nO3c3XKrIBSGYRGN4l/v/2632k6mSdPAslmB5X6fo0wPWr5ZCEKgVQUAAAAAAAAAAAAAAAAAAAAAAAAAkPO+6odhWYbhsn48H18t8+RcvXOhG/uTpfTDvKZr3dWacxqr86T0w7RW7t76oyZ3y17E992DgJ8p3XKGQvrF/RJwD9nlbt/f+flJwC1j6HM38Y989zzh1lkH053VT7GEW0jLGeM1/DTkbuhhvklL2IZL7qYeNaQl3MZVq101MeCWcTSZMTZd3Mrd2kN6ScJ6NlhGWRFda3DEuYgSuroxV8bUCeMq5G6xmJ/aeKybMpqb/3thQoMDziLsp66djEUUjqc7Y2Nq0hLjlrWH0QdxEesld6OFDkQcc7dZ5iJOaG7y788f8UgVjXXU/+BZ9EH6dmNuRE3dmPoe0diGqnih4ewt/JO3pq5FtPaOKh9Src0ZBx5Ga49iJV5N2eunaxmFRTQ2K26EY6q9rZuNrIj2+ulaxjG9jG2wmFC08re24r9KXlGpzokfH3q/u/KJE4fuhKEaMfFxrHVHU92ISTOHekLdiAl1rCfd/VP1iJGTRds+v3IDtDvqyl+ezB2105/y9SM+KWTdzpc3TPlviLhqwo+Tfm1dd5bPFN3z1dJtZ22/9qy2j6E526HbNeXQdPu5YhemeelPeXa68l+x/DnjAXjuPfNiTu94u8mMiCegv5j65B97x5/WjrhfdlvGsfnFuCyD9suOYkTvh7ELddz2yqp4Q0wr4vrS3bn65rLbk5X/fg9ObeGhEtH3888FYiymM7R8XAO28q/Bt5STlYtws7CA30MGA5WM7bhFQ87Fn9mUH0a5D1n2TTjfh78mdGUfbPBL2iQRzVjs1VTJd6aRjFPuLI8dOTD1a8Yir/u9roZ7xgLrmPp1aXrG4sYc8Zm3aMbirm3Kz59GM5Z1TuXA8dOEjCWdinvtUHONWNTjqBDQFdVVj1yQSlPM7Ci6NSxRzIU/lbHmK2MhZVQrYjFl1HsSN0WUUXh8WKaMw8Yvfjm9i1jC3Kg42OwZS3jF0QxYRk99+RLjLmL+Bccr1/qP5Y8ov/otU8CxcfldTGHE7NcaD1waFkbMvquqPNqUMN6oTvx7xOyTv3rE/P9eRGVL47s6+12j0QVtuSMCAAAAAAAAAAAAAAAAAAAAAAAAAACpf/P2JHtXd325AAAAAElFTkSuQmCC" alt="">
+                </a>
+            </div>
+            <div class="friends-main__text">
+                <h4>김김자</h4>
+            </div>
+        </div> -->
+    </main>
+
     <footer class="footer">
-        
+        <div class="footer-advertise">
+            
+        </div>
     </footer>
 
     <script src="https://kit.fontawesome.com/b3c45d5f2a.js" crossorigin="anonymous"></script>
